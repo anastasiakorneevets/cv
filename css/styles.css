@@ -1,0 +1,106 @@
+body {
+    min-width: 800px;
+    max-width: 1024px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: 1px solid #ddcbcb;
+    box-shadow: 7px 6px 19px -6px rgba(0,0,0,0.75);
+    font-family: "Lora";
+}
+.InfoAndImage {
+    display: flex;
+}
+
+.main {
+    display: flex;
+}
+
+.InfoTitle {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.EducationDate {
+    font-weight: bold;
+}
+
+.EducationTitle {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.CourseTitle {
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+.InfoAndImage {
+    justify-content: space-around;
+    align-items: stretch;
+    background-color: #ddcbcb;
+}
+
+
+
+.image {
+    width: 30%;
+    background: url(../img/1.jpg) no-repeat center center;
+    padding: 2px 2px 20px 5px;
+}
+
+.ContactInfo {
+    width: 70%;
+    text-align: center;
+    padding-bottom: 20px;
+    color: #000000;
+}
+
+.left {
+    width: 30%;
+    background-color: #f2ecec;
+    padding-left: 15px;
+}
+
+.right {
+    width: 70%;
+    padding-left: 15px;
+}
+
+h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 2.2rem;
+    font-family: "Playfair Display SC";
+}
+
+.main {
+    color: #000000;
+}
+
+h2 {
+    color: #a18b8b;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+}
+
+pre {
+    width: 550px;
+    padding-top: 10px;
+    background-color: rgba(253, 231, 245, 0.65);
+
+}
+
+a {
+    text-decoration: none; 
+    border-bottom: 1px dotted #412d22;
+}
+
+.SkillsList {
+    list-style-type: square;
+}
+
+.technologies {
+    font-weight: bold;
+    font-style: italic;
+}
